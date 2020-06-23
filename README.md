@@ -54,4 +54,4 @@ To run unit tests, if python is installed on your system, run `$ python3 -m unit
 
 ## License
 
-The project is licensed under the MIT License.
+The project is licensed under the MIT License
