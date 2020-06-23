@@ -86,6 +86,6 @@ class App(object):
             self.classified_flag_result['text'] = "Classified words found? " + str(result[0])
             self.return_classified_text['text'] = result[1]
         except (ValueError, TypeError, NameError):
-            self.error_message['text'] = "There was a problem with classification. Please review your input and try again."
-     
+            self.error_message['text'] = "There was a problem with classification. Please review your input and try again"
+      
 App()

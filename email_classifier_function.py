@@ -19,7 +19,7 @@ def censor(word):
 
 def email_classifier(classified_words, email_text): 
     """Input: words TYPE list and email TYPE string 
-    Replaces found "classified" words in email string with astericks 
+    Replaces any found "classified" words in email string with astericks 
     Returns: Tuple with Boolean flag signaling if classified words found, and new censored email"""
 
     # test if function inputs are list and string type
